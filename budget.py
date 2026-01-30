@@ -1,8 +1,10 @@
 """
-
-Personal Budget Calculator
-Calculate expenses and percentaje of income spent.
-
+Assignment 3A: Number Formatting & Math
+Name: Hernan Ramoz
+Description:
+This program calculates a personal monthly budget by asking the user
+for income and expenses, then computes the total expenses and the
+percentage of income spent.
 """
 
 # 1. Get Input
