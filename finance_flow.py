@@ -35,6 +35,7 @@ def get_income():
 
 
 def get_expenses():
+    
     expenses = get_number("Enter your monthly expenses: ")
     return expenses
 
@@ -61,6 +62,11 @@ def show_summary(balance, title="Financial Summary"):
         print("Good job! You still have money left.")
 
 
+def save_to_file(balance):
+    with open("finance_log.txt", "a") as file:
+        file.write("Balance: " + str(balance) + "\n")
+
+
 def main():
     show_welcome()
 
@@ -71,6 +77,7 @@ def main():
     balance = calculate_balance(income=income, expenses=expenses, debt=debt)
 
     show_summary(balance=balance)
+    save_to_file(balance)
 
 
 main()
