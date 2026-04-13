@@ -1,0 +1,3 @@
+INCOME_LABEL: Monthly Income
+EXPENSE_LABEL: Monthly Expenses
+DEBT_LABEL: Monthly Debt Payments
