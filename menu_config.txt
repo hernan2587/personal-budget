@@ -1,0 +1,4 @@
+COFFEE: latte, espresso, cappuccino
+PRICES: 3.5, 4.0, 4.5
+MILK: whole, almond, oat
+FLAVORS: vanilla, caramel, hazelnut
